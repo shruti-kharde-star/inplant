@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(206, 200, 200);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.box {
+    height: 98%;
+    width: 93%;
+    background-color: white;
+}
+
+.nav {
+    height: 10%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    height: 100%;
+    width: 30%;
+    /* background-color: lightcoral; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2.5vw;
+}
+
+.mid {
+    height: 100%;
+    width: 40%;
+    /* background-color: lightsalmon; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mid a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2vw;
+}
+
+.right {
+    height: 100%;
+    width: 30%;
+    /* background-color: lightpink; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 3vw;
+}
+
+.right i {
+    padding: 1vw;
+}
+
+.cart {
+    height: 55%;
+    width: 100%;
+    /* background-color: darkcyan; */
+    display: flex;
+}
+
+.info {
+    height: 100%;
+    width: 50%;
+    /* background-color: yellow; */
+    padding-left: 2.5vw;
+    padding-top: 2vw;
+}
+
+.info h4 {
+    font-weight: 800;
+}
+
+.info h1 {
+    font-size: 3vw;
+    line-height: 1vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.info p {
+    font-size: 1vw;
+    font-weight: 500;
+    text-align: left;
+    padding-right: 7vw;
+    margin-bottom: 2vw;
+}
+
+.button button {
+    height: 5.5vh;
+    width: 9vw;
+    /* background-color: darkgreen; */
+    font-size: 1.1vw;
+    border: none;
+    /* transform: rotate(45deg); */
+}
+
+.img {
+    height: 100%;
+    width: 50%;
+    /* background-color: lightseagreen ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.block {
+    height: 90%;
+    width: 60%;
+    background-color: rgb(244, 239, 239);
+    border-radius: 50%;
+    border: 3px solid rgb(190, 188, 188);
+    background-image: url(/image.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.small-box {
+    height: 20%;
+    width: 40%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 16vw;
+    left: 2vw;
+    border: 2px solid rgb(209, 204, 204);
+
+}
+
+.logo {
+    height: 4.7vh;
+    width: 3.5vw;
+    background-color: rgb(211, 205, 205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw;
+    font-size: 1.8vw;
+    color: green;
+}
+
+.passage h3 {
+    line-height: 3.6vh;
+}
+
+.passage p {
+    line-height: 1.6vh;
+    color: gray;
+}
+
+
+.plant {
+    height: 30%;
+    width: 100%;
+    /* background-color: darksalmon; */
+    display: flex;
+    padding-left: 2vw;
+}
+
+.left-plant {
+    height: 100%;
+    width: 45%;
+    background-color: green;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    padding-bottom: 9vw;
+    margin-right: 1vw;
+}
+
+.plant-data {
+    margin-top: 4vw;
+    margin-right: .5vw;
+    color: white;
+}
+
+.left-plant-data {
+    padding-top: 5vw ;
+}
+
+.left-plant-data h3 {
+    line-height: 4vh;
+}
+
+.left-plant-data h2 {
+    line-height: 4vh;
+}
+
+
+.ADD button {
+    height: 4vh;
+    width: 7vw;
+    margin-top: 2vw;
+    border: none;
+    border-radius: 4px;
+}
+
+.right-plant {
+    height: 89%;
+    width: 40%;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-right: 1vw;
+    margin-top: 2vw;
+    border-radius: 6%;
+}
+
+.photo {
+    padding-left: .6vw;
+    background-color: transparent;
+    margin-bottom: 1vw;
+}
+
+.para1 {
+    padding-left: 1vw;
+}
+
+.para1 h2 {
+    line-height: 5vh;
+}
+
+.para1 h3 {
+    line-height: 5vh;
+}
