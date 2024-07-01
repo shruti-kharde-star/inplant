@@ -132,7 +132,7 @@ html,body {
     background-color: rgb(244, 239, 239);
     border-radius: 50%;
     border: 3px solid rgb(190, 188, 188);
-    background-image: url(/image.png);
+    background-image: url(image.png);
     background-position: center;
     background-size: cover;
 }
